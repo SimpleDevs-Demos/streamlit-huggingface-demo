@@ -5,7 +5,7 @@ colorFrom: pink
 colorTo: yellow
 sdk: streamlit
 sdk_version: 1.17.0
-app_file: src/main.py
+app_file: app.py
 pinned: false
 ---
 
@@ -15,7 +15,7 @@ This is an example repository that represents a viable way to structure a projec
 
 ## What is this project?
 
-This is an example project that contains an example of Sentiment Analysis. The project uses **Streamlit** to render UI elements, while all models used here are run off of Transformers and Tokenizers from **HuggingFace**. The main interface is driven by `app.py`. If you want demos, visit this example **[running on Streamlit](https://simpledevs-huggingface-demo.streamlit.app/)**.
+This is an example project that contains an example of Sentiment Analysis. The project uses **Streamlit** to render UI elements, while all models used here are run off of Transformers and Tokenizers from **HuggingFace**. The main interface is driven by `app.py`. If you want demos, visit this example **[running on Streamlit](https://simpledevs-huggingface-demo.streamlit.app/)** or **[running on HuggingFace](https://huggingface.co/spaces/rk2546/Streamlit-Huggingface-Demo)**.
 
 Sentiment Analysis relies on pre-trained [models](https://huggingface.co/models) from HuggingFace's public [datasets](https://huggingface.co/datasets) - particularly 4 models:
 
