@@ -11,11 +11,11 @@ pinned: false
 
 # Streamlit + HuggingFace Demo
 
-This is an example repository that represents a viable way to structure a project and deploy it on either HuggingFace or Streamlit Community Pages.
+This is an example repository that represents a viable way to structure a project and deploy it as a Streamlit Community Page.
 
 ## What is this project?
 
-This is an example project that contains an example of Sentiment Analysis. The project uses **Streamlit** to render UI elements, while all models used here are run off of Transformers and Tokenizers from **HuggingFace**. The main interface is driven by `app.py`. If you want demos, visit this example **[running on Streamlit](https://simpledevs-huggingface-demo.streamlit.app/)** or **[running on HuggingFace](https://huggingface.co/spaces/rk2546/Streamlit-Huggingface-Demo)**.
+This is an example project that contains an example of Sentiment Analysis. The project uses **Streamlit** to render UI elements, while all models used here are run off of Transformers and Tokenizers from **HuggingFace**. The main interface is driven by `app.py`. If you want demos, visit this example **[running on Streamlit](https://simpledevs-huggingface-demo.streamlit.app/)**.
 
 Sentiment Analysis relies on pre-trained [models](https://huggingface.co/models) from HuggingFace's public [datasets](https://huggingface.co/datasets) - particularly 4 models:
 
